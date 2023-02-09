@@ -6,6 +6,7 @@ public class Player
     public int count;
     private void Start() {
         count = 1;
+        vector = new Vector3(0,0,0);
     }
     
     private void OnCollisionEnter2D(Collision2D other) {
