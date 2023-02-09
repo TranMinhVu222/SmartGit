@@ -6,7 +6,7 @@ public class Player
     public int count;
     private void Start() {
         count = 1;
-        vector = new Vector3(0,0,0);
+        string hotFix = "vua check out o branch HotFixa";
     }
     
     private void OnCollisionEnter2D(Collision2D other) {
