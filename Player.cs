@@ -5,9 +5,10 @@ public class Player
     public Vector3 vector;
     public int count;
     private void Start() {
-        
+                
     }
-    private void Update() {
+    
+    private void OnCollisionEnter2D(Collision2D other) {
         
     }
 }
